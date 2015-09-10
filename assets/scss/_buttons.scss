@@ -1,4 +1,4 @@
-@import url(mixins.less);
+@import "_mixins";
 
 .gridlist-toggle {
 	display: block;
@@ -10,7 +10,7 @@
 	a {
 		display: inline-block;
 		padding: .618em;
-		.borderbox;
+		@include borderbox();
 		text-align: center;
 		text-decoration: none !important;
 		font-weight: 400 !important;
